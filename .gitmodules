@@ -1,0 +1,6 @@
+[submodule "s2n"]
+	path = s2n
+	url = git@github.com:fwsGonzo/s2n.git
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/openssl/openssl.git
