@@ -1,10 +1,8 @@
 #!/bin/bash
 set -e
-pushd s2n
-mkdir -p build
-pushd build
-cmake ..
+mkdir -p build_s2n
+pushd build_s2n
+cmake ../s2n
 make -j24
-popd
 popd
 echo "*** s2n has been built"
